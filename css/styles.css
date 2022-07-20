@@ -1,4 +1,4 @@
-:root {te
+:root {
     --doc-bgd-color: #ffffff;
     --doc-title-color: #212121;
     --doc-text-color: #757575;
@@ -213,8 +213,10 @@ a {
 }
 
 .advantage-baner {
+    display: flex;
+    justify-content: center;
     width: 270px;
-    padding: 25px 100px;
+    height: 120px;
     margin-bottom: 30px;
 
     background-color: var(--button-color);
@@ -224,6 +226,7 @@ a {
 .advantage-icon {
     width: 70px;
     height: 70px;
+    align-self: center;
 }
 
 .advantages-title {
@@ -317,10 +320,11 @@ a {
 }
 
 .team-contact-link {
-    display: block;
+    display: flex;
     width: 44px;
     height: 44px;
-    padding: 12px;
+    justify-content: center;
+    
     border-radius: 22px;
 
     color: #AFB1B8;
@@ -336,6 +340,8 @@ a {
 .team-contact-icon {
     width: 20px;
     height: 20px;
+    align-self: center;
+
     fill: currentColor;
 }
 
@@ -554,13 +560,13 @@ a {
 
 
 .footer-join-link {
-    display: block;
+    display: flex;
     width: 44px;
     height: 44px;
-    padding: 12px;
+    justify-content: center;
 
     color: var(--doc-bgd-color);
-    background-color: rgb(67, 68, 77);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 22px;
 }
 
@@ -572,6 +578,7 @@ a {
 .footer-join-icon {
     width: 20px;
     height: 20px;
+    align-self: center;
 
     fill: currentColor;
 }
